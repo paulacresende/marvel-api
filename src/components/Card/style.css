@@ -1,0 +1,15 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: bisque;
+
+}
+
+.hero-img{
+    height: 30vh;
+    width: 40vw;
+    border-radius: 5px;
+}

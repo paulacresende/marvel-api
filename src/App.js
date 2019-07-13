@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios'
 import logo from './logo.svg';
 import './App.css';
+import Card from './components/Card';
 
 const md5 = require('md5');
 
@@ -34,10 +35,11 @@ class App extends Component{
     <div className="App">
         {
         this.state.heroes.map((hero) => (
-          <p key={hero.id}>{hero.name}</p>
+            <Card hero={hero} key={hero.id}/>
         ))
         }
       </div>
+      
     );
   }
 }
