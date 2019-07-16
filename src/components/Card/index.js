@@ -5,13 +5,15 @@ const Card = ({hero}) => {
     console.log(hero);
     const imgurl=`${hero.thumbnail.path}.${hero.thumbnail.extension}`;
     return (
-        <div className="main">
-        <img src={imgurl} alt="imagem" className="hero-img"/>
+        <div className="card">
+          <div className="card-img">
+          <img src={imgurl} alt="imagem" className="hero-img"/>
+          </div>
+          <div className="card-description">
+          <h3>{hero.name}</h3>
+          <p>{hero.description}</p>
+          </div>
 
-          <p>{hero.name}</p>
-          <p>
-            {hero.description}
-          </p>
         </div>
     );
 }

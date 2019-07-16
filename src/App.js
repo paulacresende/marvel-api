@@ -33,12 +33,14 @@ class App extends Component{
   render() {
     return (
     <div className="App">
+      <header className="card-header"><h1>MARVEL CARDS</h1></header>
         {
         this.state.heroes.map((hero) => (
             <Card hero={hero} key={hero.id}/>
         ))
         }
-      </div>
+        </div>
+      
       
     );
   }
