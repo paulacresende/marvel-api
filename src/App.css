@@ -4,6 +4,7 @@
   background-color: rgb(192, 188, 176);
   text-align: center;
   align-content: center;
+  justify-content: center;
 }
 .card-header{
   background-color:#cf1219;

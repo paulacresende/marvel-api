@@ -2,8 +2,8 @@
 .card{
     background-color:rgb(66, 65, 65);
     height: auto;
-    width: 21%;
-    margin: 1%;
+    width: 20vw;
+    margin: 1vw;
     border-radius: 10px;
     padding: 1%;
     box-shadow: 2px 2px 2px 2px black;
@@ -40,5 +40,4 @@
     h3{
         font-size: 40%;
     }
-
 }
