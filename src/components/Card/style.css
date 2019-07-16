@@ -33,3 +33,12 @@
     margin: 2%;
 }
 
+@media screen and (max-width: 600px){
+    p{
+        font-size: 40%;
+    }
+    h3{
+        font-size: 40%;
+    }
+
+}
